@@ -1,0 +1,249 @@
+*{
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+}
+body{
+    overflow-x: hidden;
+}
+
+nav .navbar{
+    width: 100vw;
+}
+
+.color1{
+    background-color: #F3732B;
+}
+
+.brand-name{
+    font-size: 3em;
+    font-family: 'PT Sans', sans-serif;
+    color: #2F2C3F
+}
+
+.navbar-nav .nav-item .nav-link:hover{
+    Color:#2F2C3F;
+    border-bottom: solid #2F2C3F 1px;
+}
+
+.row-2{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding-top: 50px;
+    background-color: #2F2C3F;
+}
+
+.c1{
+    background-color: #2F2C3F;
+    padding:0;
+}
+
+
+.card-body{
+    display:flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+}
+
+
+
+.card{
+    width: 100%;
+}
+ 
+ul{
+    list-style:none;
+}
+
+.food-img{
+    width:35vw;
+    margin: 20px;
+    margin-left: 40px;
+    transition: all 300ms ease-in-out;
+}
+
+.drink-img{
+    width: 35vw;
+    margin: 20px;
+    transition: all 300ms ease-in-out;
+}
+
+.food-section{
+    display:flex;
+    flex-direction: row;
+    background-color: #12C2B3;
+    justify-content: center;
+    align-items: center;
+}
+
+.drink-section{
+    display: flex;
+    flex-direction: row;
+    background-color: #297B79;
+    justify-content: center;
+    align-items: center;
+}
+
+.food-title{
+    color:#2F2C3F;
+    font-size: 2em;
+    font-family:'Playfair Display',serif ;
+}
+
+.food-text{
+    color: #2F2C3F;
+    font-size: 1.25em;
+    font-family:'Playfair Display',serif ;
+}
+
+.drink-title{
+    color: #EFD984;
+    font-size: 2.5em;
+    font-family:'Playfair Display',serif ;
+}
+
+.drink-text{
+    color: #EFD984;
+    font-size: 1.25em;
+    font-family:'Playfair Display',serif ;
+}
+
+.food-word{
+    text-align: center;
+    padding: 20px;
+}
+
+.drink-word{
+    text-align: center;
+    padding:20px;
+}
+
+.row-6{
+    display: flex;
+    flex-direction: row;
+}
+
+.contact-info{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.container-fluid{
+    padding:0;
+}
+
+
+.features{
+    padding:0;
+    background-color: #EFD984;
+    color:#12C2B3;
+    font-family: 'Crimson Text', serif;
+    font-size: 1.25em;
+}
+
+.card-header{
+    color:#12C2B3;
+    font-family: 'Crimson Text', serif;
+}
+
+h3{
+    color: white;
+    font-size: 2em;
+    font-family: 'Crimson Text', serif;
+}
+
+.footer-copyright{
+    background-color: #EFD984;
+    color:#12C2B3;
+    font-family: 'Crimson Text', serif;
+    font-size: 1.1em;
+}
+
+.l2 a{
+    color:#12C2B3;
+    font-size: 1.3em;
+}
+
+.header{
+    border: black 10px solid;
+    background-image: url(images/bg2.png);
+    background-size: cover;
+    background-position: center;
+}
+
+.overlay{
+    min-height: 100%;
+    min-width:100%;
+    left: 0;
+    top:0;
+    background: rgba(0, 0, 0, 0.7);
+}
+
+
+.about-section{
+    background: url('images/coffee-logo.png');
+    background-size: cover;
+    background-position: center;
+    height: 80vh;
+    width:100vw;
+}
+
+.about{
+    background-color: rgba(255, 255, 255, 0.6);
+    min-height: 100%;
+    min-width: 100%;
+    left: 0;
+    top: 0;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    text-align: center;
+}
+
+.about-title{
+    color:#2F2C3F;
+    font-size: 2em;
+    font-family:'Playfair Display',serif ;
+}
+
+.about-text{
+    color: #2f2c3f;
+    font-size: 1.25em;
+    font-family:'Playfair Display',serif ;
+}
+
+.l1{
+    display: flex;
+    flex-direction: row;
+}
+
+.features {
+    padding: 1em;
+  }
+  .feature-title {
+    color: #333;
+    font-size: 1.3em;
+    font-weight: 700;
+    margin-bottom: 20px;
+    text-transform: uppercase;
+  }
+
+  @media (max-width: 575.98px) {
+    .features {
+      margin: 0;
+    }
+  
+}
+
+.food-img:hover{
+    box-shadow: 5px 5px #2F2C3F, 6px 6px #2F2C3F, 7px 7px #2F2C3F;
+  transform: translateY(-3px) scale(0.7);
+}
+
+.drink-img:hover{
+    box-shadow: 5px 5px #2F2C3F, 6px 6px #2F2C3F, 7px 7px #2F2C3F;
+  transform: translateY(-3px) scale(0.7);
+}
